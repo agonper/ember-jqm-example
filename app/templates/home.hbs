@@ -1,0 +1,13 @@
+<!-- Home page -->
+{{#jqm-page}}
+  {{#jqm-header position="fixed"}}
+      <h1>App home</h1>
+  {{/jqm-header}}
+  {{#jqm-content}}
+      <div align="center">
+          <p>This is the home content</p>
+        {{jqm-button action=btnAction text=btnText}}
+      </div>
+  {{/jqm-content}}
+  {{outlet}}
+{{/jqm-page}}

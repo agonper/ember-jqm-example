@@ -1,0 +1,11 @@
+{{#if hasBlock}}
+  {{jqm-header text=title position="fixed"}}
+  {{#jqm-content}}
+    {{yield}}
+  {{/jqm-content}}
+{{else}}
+  {{jqm-header text=title position="fixed"}}
+  {{#jqm-content}}
+    {{body}}
+  {{/jqm-content}}
+{{/if}}

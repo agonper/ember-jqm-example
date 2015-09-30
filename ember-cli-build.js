@@ -19,5 +19,10 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  app.import("bower_components/jquery/dist/jquery.min.js");
+  app.import("bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js");
+  app.import("bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.5.min.css");
+  //app.import("bower_components/jquery-mobile-ember/jquery-mobile-ember.js");
+
   return app.toTree();
 };
