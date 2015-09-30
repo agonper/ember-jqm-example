@@ -3,6 +3,12 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+**Please be patient as I'm still working on a better documentation**
+
+This appears as a solution to work with JQuery Mobile on Ember CLI with the latest version of Ember.js (2.0)
+
+The idea is to create component wrappers for all the widgets included in JQuery Mobile.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
