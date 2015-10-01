@@ -1,11 +1,21 @@
 {{#if hasBlock}}
-  {{jqm-header text=title position="fixed"}}
-  {{#jqm-content}}
+  {{#jqm-component role="header"}}
+    {{title}}
+  {{/jqm-component}}
+  {{#jqm-component role="main" class="ui-content" style="padding: 1em" align="center"}}
     {{yield}}
-  {{/jqm-content}}
+  {{/jqm-component}}
+  {{#if closeButton}}
+      {{jqm-anchor href="#" rel="close" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-b ui-btn-right"}}
+  {{/if}}
 {{else}}
-  {{jqm-header text=title position="fixed"}}
-  {{#jqm-content}}
+  {{#jqm-component role="header"}}
+    <h3>{{title}}</h3>
+  {{/jqm-component}}
+  {{#jqm-component role="main" class="ui-content" style="padding: 1em" align="center"}}
     {{body}}
-  {{/jqm-content}}
+  {{/jqm-component}}
+  {{#if closeButton}}
+    <a href="#" data-rel="close" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-b ui-btn-right"> </a>
+  {{/if}}
 {{/if}}

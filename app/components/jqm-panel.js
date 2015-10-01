@@ -11,6 +11,7 @@ export default JqmComponent.extend({
   didInsertElement() {
     $(this.$()).panel({
       create: () => {
+        $(this.$()).enhanceWithin();
         $(this.$()).panel('open');
       }
     });
