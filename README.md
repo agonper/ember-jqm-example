@@ -1,7 +1,5 @@
-# Ember-jqm
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# Ember-cli-jquerymobile
+[![Build Status](https://travis-ci.org/albertogonper/ember-cli-jquerymobile.svg?branch=master)](https://travis-ci.org/albertogonper/ember-cli-jquerymobile) & [![devDependency Status](https://david-dm.org/albertogonper/ember-cli-jquerymobile/dev-status.svg)](https://david-dm.org/albertogonper/ember-cli-jquerymobile#info=devDependencies)
 
 **Please be patient as I'm still working on a better documentation**
 
