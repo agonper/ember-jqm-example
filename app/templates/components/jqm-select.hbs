@@ -1,0 +1,7 @@
+{{#if hasBlock}}
+  {{yield}}
+{{else}}
+  {{#each options as |option|}}
+    <option value="{{option.value}}">{{option.text}}</option>
+  {{/each}}
+{{/if}}
