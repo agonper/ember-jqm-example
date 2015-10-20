@@ -6,7 +6,6 @@ export default Ember.Controller.extend({
   popupId: 'sample-popup',
   actions: {
     openPopup() {
-      console.log("Event triggered.");
       $('#'+this.get('popupId')).popup('open');
     },
     showAbout() {
