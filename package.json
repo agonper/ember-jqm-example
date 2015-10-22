@@ -1,7 +1,7 @@
 {
   "name": "ember-jqm",
   "version": "0.0.0",
-  "description": "Small description for ember-jqm goes here",
+  "description": "ember-jquery-mobile addon example",
   "private": true,
   "directories": {
     "doc": "doc",
