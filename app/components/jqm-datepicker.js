@@ -8,5 +8,8 @@ export default Ember.TextField.extend({
       dateFormat: 'dd/mm/yy'
     });
     elem.datepicker('setDate', new Date());
+
+    // Remove datepicker from the bottom of the page
+    $( '.ui-datepicker' ).css('display', 'none');
   }
 });
