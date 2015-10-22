@@ -1,11 +1,7 @@
 # Ember-cli-jquerymobile
-[![Build Status](https://travis-ci.org/albertogonper/ember-cli-jquerymobile.svg?branch=master)](https://travis-ci.org/albertogonper/ember-cli-jquerymobile) & [![devDependency Status](https://david-dm.org/albertogonper/ember-cli-jquerymobile/dev-status.svg)](https://david-dm.org/albertogonper/ember-cli-jquerymobile#info=devDependencies)
+[![Build Status](https://travis-ci.org/albertogonper/ember-cli-jquerymobile.svg?branch=master)](https://travis-ci.org/albertogonper/ember-jqm-example) & [![devDependency Status](https://david-dm.org/albertogonper/ember-jqm-example/dev-status.svg)](https://david-dm.org/albertogonper/ember-jqm-example#info=devDependencies)
 
-**Please be patient as I'm still working on a better documentation**
-
-This appears as a solution to work with JQuery Mobile on Ember CLI with the latest version of Ember.js (2.0)
-
-The idea is to create component wrappers for all the widgets included in JQuery Mobile.
+This is a working example to see how to work with [ember-jquery-mobile]() addon. Follow the instructions bellow to see how it works.
 
 ## Prerequisites
 
@@ -19,7 +15,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/albertogonper/ember-jqm-example.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
