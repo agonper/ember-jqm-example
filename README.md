@@ -1,5 +1,5 @@
 # Ember-jQm-Example
-[![Build Status](https://travis-ci.org/albertogonper/ember-cli-jquerymobile.svg?branch=master)](https://travis-ci.org/albertogonper/ember-jqm-example) & [![devDependency Status](https://david-dm.org/albertogonper/ember-jqm-example/dev-status.svg)](https://david-dm.org/albertogonper/ember-jqm-example#info=devDependencies)
+[![Build Status](https://travis-ci.org/albertogonper/ember-jqm-example.svg?branch=master)](https://travis-ci.org/albertogonper/ember-jqm-example) [![devDependency Status](https://david-dm.org/albertogonper/ember-jqm-example/dev-status.svg)](https://david-dm.org/albertogonper/ember-jqm-example#info=devDependencies)
 
 This is a working example to see how to work with [ember-jquery-mobile](https://github.com/albertogonper/ember-jquery-mobile) addon. Follow the instructions bellow to see how it works.
 
