@@ -37,5 +37,9 @@
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.3",
     "ember-jquery-mobile": "1.0.4"
+  },
+  "dependencies": {
+    "broccoli-funnel": "^0.2.11",
+    "broccoli-merge-trees": "^0.2.3"
   }
 }
