@@ -5,6 +5,7 @@ export default Ember.Controller.extend({
   btnAction: 'showAbout',
   btnText: 'Show about panel',
   popupId: 'sample-popup',
+  dButton: true,
   actions: {
     openPopup() {
       $('#'+this.get('popupId')).popup('open');
