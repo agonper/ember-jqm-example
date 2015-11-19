@@ -8,9 +8,18 @@ export default Ember.Controller.extend({
     {value: "third", text: "Third", selected: true}
   ],
   actions: {
-    onFileLoad() {
-      var file = this.get('uploadedFile');
-      window.open(file, '_blank');
+    onFile(evt) {
+      var file = evt.target.files[0];
+
+      if (file && !this.get('uploading')) {
+        var reader = new FileReader();
+
+        reader.onload = () => {
+          window.open(reader.result, '_blank');
+        };
+
+        reader.readAsDataURL(file);
+      }
     }
   }
 });
