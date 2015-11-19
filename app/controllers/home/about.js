@@ -6,5 +6,11 @@ export default Ember.Controller.extend({
     {value: "first", text: "First"},
     {value: "second", text: "Second", disabled: true},
     {value: "third", text: "Third", selected: true}
-  ]
+  ],
+  actions: {
+    onFileLoad() {
+      var file = this.get('uploadedFile');
+      window.open(file, '_blank');
+    }
+  }
 });
