@@ -7,19 +7,32 @@ export default Ember.Controller.extend({
     {value: "second", text: "Second", disabled: true},
     {value: "third", text: "Third", selected: true}
   ],
-  actions: {
-    onFile(evt) {
-      var file = evt.target.files[0];
+  onFile: Ember.observer('files', function () {
+    var file = this.get('files')[0];
 
-      if (file && !this.get('uploading')) {
-        var reader = new FileReader();
+    if (file && !this.get('uploading')) {
+      var reader = new FileReader();
 
-        reader.onload = () => {
-          window.open(reader.result, '_blank');
-        };
+      reader.onload = () => {
+        window.open(reader.result, '_blank');
+      };
 
-        reader.readAsDataURL(file);
-      }
+      reader.readAsDataURL(file);
     }
-  }
+  })
+  //actions: {
+  //  onFile(evt) {
+  //    var file = evt.target.files[0];
+  //
+  //    if (file && !this.get('uploading')) {
+  //      var reader = new FileReader();
+  //
+  //      reader.onload = () => {
+  //        window.open(reader.result, '_blank');
+  //      };
+  //
+  //      reader.readAsDataURL(file);
+  //    }
+  //  }
+  //}
 });
