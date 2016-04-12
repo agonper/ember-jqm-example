@@ -1,4 +1,4 @@
-{{#jqm-panel id=panelId theme="a" position="right" display="overlay" dismissible="false" title="About" closeButton="true" routeOnClose="home"}}
+{{#jqm-panel id=panelId theme="a" animate=false position="right" display="overlay" dismissible="false" title="About" closeButton="true" routeOnClose="home"}}
   <p>This is the content of the about panel</p>
   <h3>Example list view:</h3>
   {{#jqm-ulistview inset=true}}
@@ -12,5 +12,7 @@
     <li>{{jqm-slider highlight="true" value=50 min=0 max=100}}</li>
     {{#jqm-listdivider}}jQuery Mobile selector{{/jqm-listdivider}}
     <li>{{jqm-select options=options}}</li>
+    <label>{{jqm-checkbox checked=true}} Checkbox example</label>
+    <label>{{jqm-radiobutton checked=true mini=true}} Radio button example</label>
   {{/jqm-ulistview}}
 {{/jqm-panel}}
